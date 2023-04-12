@@ -5,16 +5,17 @@ import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Build;
-import android.support.v7.widget.CardView;
 import android.view.View;
 import android.view.animation.BounceInterpolator;
 import android.widget.TextView;
 
-import com.db.chart.util.Tools;
+import androidx.cardview.widget.CardView;
+
 import com.db.chart.animation.Animation;
 import com.db.chart.model.LineSet;
 import com.db.chart.renderer.AxisRenderer;
 import com.db.chart.tooltip.Tooltip;
+import com.db.chart.util.Tools;
 import com.db.chart.view.LineChartView;
 import com.db.williamchartdemo.CardController;
 import com.db.williamchartdemo.R;

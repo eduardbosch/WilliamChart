@@ -26,13 +26,14 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.Region;
 import android.graphics.Shader;
-import android.support.annotation.FloatRange;
 import android.util.AttributeSet;
 
-import com.db.chart.util.Tools;
+import androidx.annotation.FloatRange;
+
 import com.db.chart.model.ChartSet;
 import com.db.chart.model.LineSet;
 import com.db.chart.model.Point;
+import com.db.chart.util.Tools;
 import com.db.williamchart.R;
 
 import java.util.ArrayList;

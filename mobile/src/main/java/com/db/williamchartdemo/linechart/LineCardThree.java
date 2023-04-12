@@ -2,7 +2,8 @@ package com.db.williamchartdemo.linechart;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.v7.widget.CardView;
+
+import androidx.cardview.widget.CardView;
 
 import com.db.chart.animation.Animation;
 import com.db.chart.model.LineSet;

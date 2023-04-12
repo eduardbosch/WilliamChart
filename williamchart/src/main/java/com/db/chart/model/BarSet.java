@@ -16,9 +16,9 @@
 
 package com.db.chart.model;
 
-import android.support.annotation.ColorInt;
-import android.support.annotation.NonNull;
-import android.support.annotation.Size;
+import androidx.annotation.ColorInt;
+import androidx.annotation.NonNull;
+import androidx.annotation.Size;
 
 import static com.db.chart.util.Preconditions.checkNotNull;
 

@@ -2,12 +2,13 @@ package com.db.williamchartdemo.stackedchart;
 
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.support.v7.widget.CardView;
 import android.view.animation.AccelerateInterpolator;
 
-import com.db.chart.util.Tools;
+import androidx.cardview.widget.CardView;
+
 import com.db.chart.animation.Animation;
 import com.db.chart.model.BarSet;
+import com.db.chart.util.Tools;
 import com.db.chart.view.HorizontalStackBarChartView;
 import com.db.williamchartdemo.CardController;
 import com.db.williamchartdemo.R;

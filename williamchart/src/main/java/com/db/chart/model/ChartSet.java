@@ -17,8 +17,9 @@
 package com.db.chart.model;
 
 import android.animation.ValueAnimator;
-import android.support.annotation.FloatRange;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.FloatRange;
+import androidx.annotation.NonNull;
 
 import java.util.ArrayList;
 import java.util.Collections;

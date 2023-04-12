@@ -3,10 +3,11 @@ package com.db.williamchartdemo.stackedchart;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.support.v7.widget.CardView;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.TextView;
+
+import androidx.cardview.widget.CardView;
 
 import com.db.chart.animation.Animation;
 import com.db.chart.model.BarSet;

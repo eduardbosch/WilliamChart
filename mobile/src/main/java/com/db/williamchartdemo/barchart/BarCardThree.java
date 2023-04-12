@@ -4,9 +4,10 @@ import android.animation.PropertyValuesHolder;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Build;
-import android.support.v7.widget.CardView;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
+
+import androidx.cardview.widget.CardView;
 
 import com.db.chart.animation.Animation;
 import com.db.chart.model.BarSet;

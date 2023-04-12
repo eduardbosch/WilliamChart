@@ -22,10 +22,11 @@ import android.animation.TimeInterpolator;
 import android.animation.ValueAnimator;
 import android.graphics.Rect;
 import android.os.Build;
-import android.support.annotation.FloatRange;
-import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
 import android.view.animation.DecelerateInterpolator;
+
+import androidx.annotation.FloatRange;
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 
 import com.db.chart.model.ChartEntry;
 import com.db.chart.model.ChartSet;

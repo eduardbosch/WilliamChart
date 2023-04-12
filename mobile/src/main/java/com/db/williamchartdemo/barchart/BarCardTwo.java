@@ -6,9 +6,10 @@ import android.graphics.Color;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.os.Build;
-import android.support.v7.widget.CardView;
 import android.view.View;
 import android.widget.TextView;
+
+import androidx.cardview.widget.CardView;
 
 import com.db.chart.animation.Animation;
 import com.db.chart.listener.OnEntryClickListener;

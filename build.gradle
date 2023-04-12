@@ -15,10 +15,14 @@ buildscript {
 ext {
     minSdkVersion = 15
     targetSdkVersion = 25
-    compileSdkVersion = 28
+    compileSdkVersion = 31
     buildToolsVersion = '25.0.2'
 
     supportLibraryVersion = '25.3.1'
+    androidxAnnotationVersion = '1.6.0'
+    androidxAppcompatVersion = '1.4.2'
+    androidxCardviewVersion = '1.0.0'
+    googleMaterialVersion = '1.6.1'
     runnerVersion = '0.5'
     espressoVersion = '2.2.2'
 }

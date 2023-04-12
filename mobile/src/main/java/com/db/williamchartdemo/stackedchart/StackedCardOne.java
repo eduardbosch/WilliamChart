@@ -6,15 +6,16 @@ import android.graphics.DashPathEffect;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.os.Build;
-import android.support.v7.widget.CardView;
 import android.widget.TextView;
 
-import com.db.chart.util.Tools;
+import androidx.cardview.widget.CardView;
+
 import com.db.chart.animation.Animation;
 import com.db.chart.listener.OnEntryClickListener;
 import com.db.chart.model.BarSet;
 import com.db.chart.renderer.XRenderer;
 import com.db.chart.renderer.YRenderer;
+import com.db.chart.util.Tools;
 import com.db.chart.view.StackBarChartView;
 import com.db.williamchartdemo.CardController;
 import com.db.williamchartdemo.R;

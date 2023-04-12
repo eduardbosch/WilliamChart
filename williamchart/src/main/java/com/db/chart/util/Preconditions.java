@@ -15,7 +15,7 @@
 package com.db.chart.util;
 
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 
 /**
  * Preconditions utilities
