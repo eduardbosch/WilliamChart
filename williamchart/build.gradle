@@ -17,10 +17,10 @@ android {
 
 dependencies {
 
-    compile "androidx.annotation:annotation:$rootProject.androidxAnnotationVersion"
-    testCompile "androidx.annotation:annotation:$rootProject.androidxAnnotationVersion"
-    testCompile 'junit:junit:4.12'
-    testCompile 'org.mockito:mockito-core:1.10.19'
+    implementation "androidx.annotation:annotation:$rootProject.androidxAnnotationVersion"
+    testImplementation  "androidx.annotation:annotation:$rootProject.androidxAnnotationVersion"
+    testImplementation  'junit:junit:4.12'
+    testImplementation  'org.mockito:mockito-core:1.10.19'
 }
 
 def siteUrl = 'https://github.com/diogobernardino/WilliamChart'

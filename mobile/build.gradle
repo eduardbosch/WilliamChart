@@ -34,13 +34,13 @@ android {
 
 dependencies {
     wearApp project(':wearable')
-    compile project(':williamchart')
-    compile "androidx.appcompat:appcompat:$rootProject.androidxAppcompatVersion"
-    compile "com.google.android.material:material:$rootProject.googleMaterialVersion"
-    compile "androidx.cardview:cardview:$rootProject.androidxCardviewVersion"
-    androidTestCompile "androidx.annotation:annotation:$rootProject.androidxAnnotationVersion"
-    androidTestCompile "androidx.test.espresso:espresso-core:$rootProject.espressoVersion"
-    androidTestCompile "androidx.test.ext:junit:$rootProject.runnerVersion"
+    implementation project(':williamchart')
+    implementation "androidx.appcompat:appcompat:$rootProject.androidxAppcompatVersion"
+    implementation "com.google.android.material:material:$rootProject.googleMaterialVersion"
+    implementation "androidx.cardview:cardview:$rootProject.androidxCardviewVersion"
+    androidTestImplementation  "androidx.annotation:annotation:$rootProject.androidxAnnotationVersion"
+    androidTestImplementation  "androidx.test.espresso:espresso-core:$rootProject.espressoVersion"
+    androidTestImplementation  "androidx.test.ext:junit:$rootProject.runnerVersion"
 }
 
 play {
