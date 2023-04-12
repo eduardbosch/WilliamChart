@@ -6,7 +6,6 @@ properties.load(project.rootProject.file('local.properties').newDataInputStream(
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
-    buildToolsVersion rootProject.buildToolsVersion
 
     defaultConfig {
         minSdkVersion rootProject.minSdkVersion
