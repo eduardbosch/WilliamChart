@@ -21,7 +21,7 @@ android {
 
 dependencies {
     implementation project(':williamchart')
-    implementation 'com.google.android.support:wearable:2.0.1'
-    compileOnly 'com.google.android.wearable:wearable:2.0.1'
+    implementation 'com.google.android.support:wearable:2.1.0'
+    compileOnly 'com.google.android.wearable:wearable:2.1.0'
     implementation 'com.google.android.gms:play-services-wearable:10.2.4'
 }
